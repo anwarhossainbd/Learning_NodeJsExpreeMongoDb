@@ -1,5 +1,5 @@
-exports.getName =()=>{
-    return "Anwar Hossain" ;
+exports.getName = () =>{
+    return "Anisul Islam";
 }
 
 const getAge =()=>{

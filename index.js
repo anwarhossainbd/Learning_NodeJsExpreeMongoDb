@@ -1,7 +1,14 @@
-const Alldata = require("./student")
+// const Alldata = require("./student")
+// const {getName}= require("./student")
 
-console.log("Anwarr")
+// console.log("Anwarr")
 
-console.log(Alldata.getAge()) ;
+
+const {getName} = require('./student');
+
+console.log(getName());
+
+// console.log(Alldata.getAge()) ;
+// console.log(getName())
 
 
