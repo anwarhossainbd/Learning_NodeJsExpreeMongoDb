@@ -1,11 +1,10 @@
-const fs =require('fs');
+const fs= require('fs');
 
-fs.readFile('anwar.txt',"utf-8",(err,data)=>{
-   if (err){
-    console.log(err)
-   }
+fs.unlink("anwar.txt",(error)=>{
 
-   else{
-    console.log(data)
+   if(error){
+      console.log(error)
+   }else{
+      console.log("Successfull ")
    }
 })
