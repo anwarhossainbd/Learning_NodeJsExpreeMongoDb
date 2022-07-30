@@ -1,14 +1,11 @@
-// const Alldata = require("./student")
-// const {getName}= require("./student")
+const fs =require('fs');
 
-// console.log("Anwarr")
+fs.writeFile('anwar.txt',"welcome Anwar ",(err)=>{
+   if (err){
+    console.log(error)
+   }
 
-
-const {getName} = require('./student');
-
-console.log(getName());
-
-// console.log(Alldata.getAge()) ;
-// console.log(getName())
-
-
+   else{
+    console.log("SuccessFull")
+   }
+})
