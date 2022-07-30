@@ -1,6 +1,6 @@
 const fs =require('fs');
 
-fs.writeFile('anwar.txt',"welcome Anwar ",(err)=>{
+fs.appendFile('anwar.txt',"Go ahead ",(err)=>{
    if (err){
     console.log(error)
    }
