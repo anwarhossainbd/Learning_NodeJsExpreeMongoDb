@@ -1,0 +1,22 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anwarhossainbd/Learning_NodeJsExpreeMongoDb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anwarhossainbd/Learning_NodeJsExpreeMongoDb/issues"
+  },
+  "homepage": "https://github.com/anwarhossainbd/Learning_NodeJsExpreeMongoDb#readme",
+  "dependencies": {
+    "random-fruits-name": "^1.9.5"
+  }
+}

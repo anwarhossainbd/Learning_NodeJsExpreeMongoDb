@@ -1,10 +1,4 @@
-const fs= require('fs');
+const getRandomFruitsName = require("random-fruits-name")
+var movinames = require("random-fruits-name")
 
-fs.unlink("anwar.txt",(error)=>{
-
-   if(error){
-      console.log(error)
-   }else{
-      console.log("Successfull ")
-   }
-})
+console.log(getRandomFruitsName()) ;
