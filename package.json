@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/anwarhossainbd/Learning_NodeJsExpreeMongoDb#readme",
   "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19",
     "random-fruits-name": "^1.9.5"
   }
 }
